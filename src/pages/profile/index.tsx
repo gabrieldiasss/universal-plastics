@@ -1,3 +1,4 @@
+import { BottomMenu } from '../../components/BottomMenu'
 import Header from '../../components/Header'
 import { Container, Content, User, UserContent, Numerics, Posts } from './styles'
 
@@ -23,7 +24,7 @@ export default function Profile() {
                             <strong>Gabriel Dias</strong>
 
                             <p>Oi meu nome é Gabriel Dias, eu tenho 17 anos.
-                                Faço uns programas e comecei a programar em maio de 2020.</p>
+                                 e comecei a programar em maio de 2020 e eu estudo e me dedico diariamente.</p>
 
                             <Numerics>
                                 <div>
@@ -52,6 +53,8 @@ export default function Profile() {
 
                     <img src="/images/foto-4.jpg" alt="" />
                 </Posts>
+
+                <BottomMenu />
             </Content>
         </Container>
     )
