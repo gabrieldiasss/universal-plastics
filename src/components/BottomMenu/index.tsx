@@ -7,7 +7,7 @@ export function BottomMenu() {
 
     return (
         <BottomMenuSection>
-            <Link href="/" >
+            <Link href="/" passHref>
                 <RiDashboardLine />
             </Link>
             
