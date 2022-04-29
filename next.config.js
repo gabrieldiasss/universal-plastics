@@ -4,7 +4,7 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true
   },
-  pageExtensions: ['tsx', 'ts']
+  pageExtensions: ['profile.index.tsx', 'profile.styles.ts']
 }
 
 module.exports = nextConfig
