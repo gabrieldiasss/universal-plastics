@@ -1,4 +1,3 @@
 {
-  "extends": "next/core-web-vitals",
-  "linebreak-style": ["error", "windows"]
+  "extends": "next/core-web-vitals"
 }
