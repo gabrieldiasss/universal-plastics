@@ -1,44 +1,39 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+
+    h1 {
+        margin-top: 1rem;
+    }
+
     width: 90%;
     max-width: 1200px;
     margin: 2rem auto;
-
 `
 
 export const Content = styled.div`
-    margin: 1rem 0 5rem 0;
+
+    margin: 1rem 0 2rem 0;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
 
-    @media(max-width: 500px) {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        grid-template-columns: 1fr;
-    }
+    text-align: center;
 
-    @media(min-width: 1300px) {
-        grid-template-columns: repeat(3, 1fr);
-    }
 `
 
 export const Post = styled.div`
 
     cursor: pointer;
 
-    width: 300px;
+    margin-bottom: 1rem;
 
-    padding: 1rem;
-
-    background-color: var(--black-700);
+    /* background-color: var(--black-700);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.10);
-    border-radius: 5px;
+    border-radius: 5px; */
 
     img {
-        width: 100%;
+        width: 100px;
+        height: 100px;
         border-radius: 10px;
     }
 
@@ -59,8 +54,12 @@ export const Post = styled.div`
             align-items: center;
             gap: 16px;
 
+            margin-top: -10px;
+
             svg {
                 font-size: 1.4rem;
+
+                color: var(--blue-300);
             }
 
             span {
@@ -73,8 +72,6 @@ export const Post = styled.div`
 
                 gap: 4px;
             }
-
-
         }
     }
 `

@@ -5,11 +5,12 @@ import { GlobalStyle } from '../styles/global'
 import { Container } from './styles.app'
 
 function MyApp({ Component, pageProps }: AppProps) {
+  
   return (
     <>
       <Container>
         <Sidebar />
-       <Component {...pageProps} />
+         <Component {...pageProps} />
     </Container>  
   
       <GlobalStyle />

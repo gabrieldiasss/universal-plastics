@@ -11,8 +11,8 @@ export default function Content() {
     return (
         <Container>
             <Header />
-            <Storys />
-            <Suggestions />
+            {/* <Storys /> */}
+            {/* <Suggestions /> */}
             <Feed />
             <BottomMenu />
         </Container>

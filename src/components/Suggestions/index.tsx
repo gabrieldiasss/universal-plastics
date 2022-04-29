@@ -14,7 +14,7 @@ export function Suggestions() {
                     </div>
 
                     <div className="profile" >
-                        <img src="https://github.com/diego3g.png" alt="" />
+                        <img src="/images/logo.png" alt="" />
                     </div>
                 </Card>
 

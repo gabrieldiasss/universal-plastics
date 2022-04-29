@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 1rem auto;
     width: 90%;
 
     h1 {
@@ -64,9 +64,7 @@ export const Card = styled.div`
     .profile {
         img {
             width: 60px;
-            height: 60px;
-            border-radius: 100%;
-            margin-top: -30px;
+            margin-top: -70px;
         }
     }
 

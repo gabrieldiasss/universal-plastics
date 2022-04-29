@@ -1,5 +1,6 @@
 import { Content, HeaderContainer } from './styles'
 import { RiAddBoxFill, RiSearchLine } from 'react-icons/ri'
+import { MdVerified } from 'react-icons/md'
 import Link from 'next/link'
 
 export default function Header() {
@@ -16,13 +17,27 @@ export default function Header() {
                 </div>
 
                 <div className='infos' >
-                    <div>
-                        <button type="button"> < RiAddBoxFill/> Add Post</button>
+                    <div className='button' >
+                        <button type="button"> < RiAddBoxFill /> Add Post</button>
                     </div>
 
-                    <Link href="/profile" passHref ><img className='user' src="https://github.com/gabrieldiasss.png" alt="" /></Link>
-                </div>
+                        <div className='bio' >
+                            <b>Paulo 🎤</b>
+                            <span>Artista</span>
+                            <p>🌈</p>
+                            <span>My Best Version</span>
+                        </div>
+
+                        <div className="user-elements" >
+                            <strong>p.leao <MdVerified /></strong>
+                            <Link href="/profile" passHref><img className='user' src="/images/paulo2.jpg" alt="" /></Link>
+                        </div>
+
+                        <img className='img-foll' src="/images/ultima.jpg" alt="" />
+                    </div>
             </Content>
+
+            <img className='footer-profile' src="/images/footer-profile.jpg" alt="" />
         </HeaderContainer>
     )
 }

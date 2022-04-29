@@ -1,24 +1,31 @@
 import { BottomMenuSection } from './styles'
-import { RiDashboardLine, RiSearch2Line, RiNotification2Line, RiSendPlaneLine, RiSettings3Fill} from 'react-icons/ri'
-import Link from 'next/link'
+import { AiOutlineHome, AiOutlineMail, AiFillHeart} from 'react-icons/ai'
+import { RiGalleryLine} from 'react-icons/ri'
+import { FaMusic} from 'react-icons/fa'
+import { MdLiveTv } from 'react-icons/md'
 
+import Link from 'next/link'
 
 export function BottomMenu() {
 
     return (
         <BottomMenuSection>
             <Link href="/" passHref>
-                <RiDashboardLine />
+                <AiOutlineHome />
             </Link>
+        
+            <AiOutlineMail />
+        
+            <AiFillHeart  />
+
+            <img src="/images/logo.png" alt="" />
+
+            <RiGalleryLine />
+
+            <FaMusic />
             
-        
-            <RiSearch2Line />
-        
-            <RiNotification2Line  />
-
-            <RiSendPlaneLine />
-
-            <RiSettings3Fill />
+            <MdLiveTv />
+           
         </BottomMenuSection>
     )
 }

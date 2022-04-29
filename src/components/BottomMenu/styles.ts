@@ -7,18 +7,24 @@ export const BottomMenuSection = styled.div`
     z-index: 2;
     height: 4rem;
     padding: 8px min(46px, mx(10vw, 10px));
-    background: var(--black-900);
-    width: 100%;
+    width: 380px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 
+    padding: 2rem;
+
     svg {
-        font-size: 1.6rem;
+        font-size: 2rem;
         color: #fff;
     }
 
     @media(min-width: 500px) {
         display: none;
+    }
+
+    img {
+        width: 60px;
+        margin-top: -30px;
     }
 `
