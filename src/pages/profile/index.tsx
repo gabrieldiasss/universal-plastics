@@ -1,7 +1,7 @@
 
 import { BottomMenu } from '../../components/BottomMenu'
 import Header from '../../components/Header'
-import { Container, Content, User, UserContent, Numerics, Posts } from './styles'
+import { Container, Content, User, UserContent, Numerics, Posts } from '../../styles/styles'
 
 export default function Profile() {
 

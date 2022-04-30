@@ -72,8 +72,6 @@ export const GlobalStyle = createGlobalStyle`
         font-family: Roboto;
         border: 0;
         outline: 0;
-
-        
     }
 
     li {
