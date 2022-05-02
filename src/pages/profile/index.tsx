@@ -7,25 +7,23 @@ export default function Profile() {
 
     return (
         <Container>
-            <Header />
             <Content>
                 <User>
                     <UserContent>
-                        <img src="https://github.com/gabrieldiasss.png" alt="" />
+                        <img src="/images/foto-1.jpg" alt="" />
 
                         <div className='infos-user' >
                             <div className='header' >
                                 <div>
-                                    <strong>gbrldiass</strong>
+                                    <strong>p.leao</strong>
                                 </div>
 
-                                <button type="button" >Seguir</button>
+                                <button type="button">Seguir</button>
                             </div>
 
-                            <strong>Gabriel Dias</strong>
+                            <strong>Paulo Ricardo</strong>
 
-                            <p>Oi meu nome é Gabriel Dias, eu tenho 17 anos.
-                                 e comecei a programar em maio de 2020 e eu estudo e me dedico diariamente.</p>
+                            <p>Paulo Ricardo, empresario, casado, investidor, 31 anos.</p>
 
                             <Numerics>
                                 <div>
@@ -50,9 +48,9 @@ export default function Profile() {
 
                 <Posts>
                     <img src="/images/foto-4.jpg" alt="" />
-                    <img src="/images/foto-4.jpg" alt="" />
+                    <img src="/images/foto-7.jpg" alt="" />
 
-                    <img src="/images/foto-4.jpg" alt="" />
+                    <img src="/images/foto-9.jpg" alt="" />
                 </Posts>
 
                 <BottomMenu />
