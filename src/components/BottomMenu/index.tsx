@@ -18,8 +18,9 @@ export function BottomMenu() {
         
             <AiFillHeart  />
 
-            <img src="/images/logo.png" alt="" />
-
+            <Link href="/profile" passHref >
+                <img src="/images/logo.png" alt="" />
+            </Link>
             <RiGalleryLine />
 
             <FaMusic />

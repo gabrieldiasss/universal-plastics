@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const HeaderContainer = styled.header`
     /* background-color: #c4c4c4; */
 
+    margin-top: 3rem;
+
     .footer-profile {
         width: 300px;
         margin: 7rem auto 1rem auto;
@@ -84,18 +86,19 @@ export const Content = styled.div`
         gap: 2rem;
         display: flex;
         align-items: center;
+        justify-content: space-between;
+        padding: 0.6rem;
 
         img {
             width: 110px;
             height: 110px;
         }
 
-    
         .bio {
 
             display: flex;
             flex-direction: column;
-            margin-top: 7rem;
+            
 
             b {
                 font-size: 1.2rem;
@@ -124,7 +127,6 @@ export const Content = styled.div`
             display: flex;
             flex-direction: column;
             text-align: center;
-            margin-top: 9rem;
 
             strong {
                 margin-bottom: 12px;
@@ -165,6 +167,26 @@ export const Content = styled.div`
             }
         }
       
+    }
+
+`
+
+export const AmountInfoUser = styled.div`
+
+    
+
+    div {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        & + div {
+            margin-top: 1rem;
+        }
+    }
+
+    svg {
+        font-size: 1.6rem;
     }
 
 `

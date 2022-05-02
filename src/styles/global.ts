@@ -82,4 +82,8 @@ export const GlobalStyle = createGlobalStyle`
         font-family: Poppins;
         font-weight: 600;
     }
+
+    .verifiedSvg {
+        color: var(--blue-300);
+    }
 `

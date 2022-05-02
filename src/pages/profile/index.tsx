@@ -1,49 +1,72 @@
 
+import { MdVerified } from 'react-icons/md'
 import { BottomMenu } from '../../components/BottomMenu'
-import Header from '../../components/Header'
-import { Container, Content, User, UserContent, Numerics, Posts } from '../../styles/styles'
+import { Container, Content, User, UserContent, Numerics, Posts, SocialNetworks } from '../../styles/styles'
+import { BsFacebook, BsArrowLeftCircle } from 'react-icons/bs'
+import { FaTiktok } from 'react-icons/fa'
+import { GrInstagram } from 'react-icons/gr'
+import Link from 'next/link'
+
+
 
 export default function Profile() {
 
     return (
         <Container>
+            <Link href="/" passHref >
+                <BsArrowLeftCircle className='arrow' />
+            </Link>
+           
             <Content>
                 <User>
                     <UserContent>
                         <img src="/images/foto-1.jpg" alt="" />
 
                         <div className='infos-user' >
-                            <div className='header' >
-                                <div>
-                                    <strong>p.leao</strong>
-                                </div>
 
-                                <button type="button">Seguir</button>
-                            </div>
+                            <strong>Paulo Ricardo <MdVerified className='verifiedSvg' /></strong>
 
-                            <strong>Paulo Ricardo</strong>
-
-                            <p>Paulo Ricardo, empresario, casado, investidor, 31 anos.</p>
+                            <b>
+                                BRAZILIAN<br />
+                                31 YEARS <br />
+                                CEO UP
+                            </b>
 
                             <Numerics>
                                 <div>
-                                    <span>170</span>
-                                    <p>posts</p>
+                                    <b>64</b>
+                                    <p>Posts</p>
                                 </div>
 
                                 <div>
-                                    <span>170</span>
+                                    <b>30 M</b>
                                     <p>Followers</p>
                                 </div>
 
                                 <div>
-                                    <span>170</span>
+                                    <b>2450</b>
                                     <p>Following</p>
                                 </div>
                             </Numerics>
-                        </div>
-                    </UserContent>
 
+                            <SocialNetworks>
+                                <Link href="https://www.instagram.com/up.tbt/" passHref >
+                                    <GrInstagram />
+                                </Link>
+
+                                <Link href="https://www.tiktok.com/@leao777777" passHref>
+                                    <FaTiktok />
+                                </Link>
+
+                                <Link href="https://www.facebook.com/people/Paulo-Ricardo-De-Leão/100063659953718/" passHref >
+                                    <BsFacebook />
+                                </Link>
+
+                                
+                            </SocialNetworks>
+                        </div>
+
+                    </UserContent>
                 </User>
 
                 <Posts>

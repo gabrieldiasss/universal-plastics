@@ -2,6 +2,14 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     flex: 1;
+
+    .arrow {
+        font-size: 2rem;
+        color: var(--blue-300);
+        top: 20px;
+        left: 20px;
+        position: absolute;
+    }
 `
 
 export const Content = styled.div`
@@ -10,12 +18,14 @@ export const Content = styled.div`
     align-items: center;
 
     margin-top: 2rem;
-
 `
 
 export const User = styled.div`
 
-    p {
+    b {
+        display: block;
+        margin-top: 1rem;
+
         max-width: 500px;
 
         color: #9FA3AB;
@@ -29,13 +39,12 @@ export const User = styled.div`
         }
     }
 
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 
     border-bottom: 1px solid #383737;
 
     @media(max-width: 500px) {
         width: 90%;
-        
     }
 `
 
@@ -105,18 +114,24 @@ export const UserContent = styled.div`
 
 export const Numerics = styled.div`
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+
+    max-width: 300px;
+    margin: 1rem auto;
+
+    justify-content: space-around;
 
     margin-top: 2rem;
 
     div {
         text-align: center;
-        span {
+        
+        b {
             font-size: 1.6rem;
         }
 
         p {
-            color: #7d7d7d;
+            color: var(--blue-300);
         }
     }
    
@@ -148,3 +163,19 @@ export const Posts = styled.div`
         } */
     }
 `
+
+export const SocialNetworks = styled.div`
+
+    max-width: 300px;
+    margin: 1rem auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    svg {
+        font-size: 2rem;
+    }
+
+`
+

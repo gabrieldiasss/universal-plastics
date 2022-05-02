@@ -12,13 +12,11 @@ export const Container = styled.div`
 `
 
 export const Content = styled.div`
-
     margin: 1rem 0 2rem 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
     text-align: center;
-
 `
 
 export const Post = styled.div`
@@ -32,8 +30,8 @@ export const Post = styled.div`
     border-radius: 5px; */
 
     img {
-        width: 100px;
-        height: 100px;
+        width: 110px;
+        height: 110px;
         border-radius: 10px;
     }
 

@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 		<>
 			<Container>
 				<Sidebar />
-				<Component {...pageProps} />
+				 <Component {...pageProps} />
 			</Container>
 
 			<GlobalStyle />

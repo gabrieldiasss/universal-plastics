@@ -1,6 +1,7 @@
 import { BottomMenu } from "../../components/BottomMenu";
 import Header from "../../components/Header";
 import { Feed } from "../Feed";
+import { Follower } from "../Follower";
 import {Storys} from "../Storys";
 import { Suggestions } from "../Suggestions";
 

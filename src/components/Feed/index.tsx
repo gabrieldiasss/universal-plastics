@@ -1,5 +1,6 @@
 import { Container, Content, Post } from "./styles";
 import { RiHeartLine, RiChat1Line } from 'react-icons/ri'
+import { SiOverleaf } from 'react-icons/si'
 
 export function Feed() {
 
@@ -17,13 +18,13 @@ export function Feed() {
 
                         <div className="engagement" >
                             <div className="icon" >
-                                <RiHeartLine />
-                                <span>54k</span>
+                                <SiOverleaf />
+                                <span>10k</span>
                             </div>
                            
                             <div className="icon" >
                                 <RiChat1Line />
-                                <span>298</span>
+                                <span>228</span>
                             </div>
                            
                         </div>
@@ -41,13 +42,13 @@ export function Feed() {
 
                         <div className="engagement" >
                             <div className="icon" >
-                                <RiHeartLine />
-                                <span>54k</span>
+                                <SiOverleaf />
+                                <span>59k</span>
                             </div>
                            
                             <div className="icon" >
                                 <RiChat1Line />
-                                <span>298</span>
+                                <span>268</span>
                             </div>
                            
                         </div>
@@ -65,13 +66,13 @@ export function Feed() {
 
                         <div className="engagement" >
                             <div className="icon" >
-                                <RiHeartLine />
-                                <span>54k</span>
+                                <SiOverleaf />
+                                <span>70k</span>
                             </div>
                            
                             <div className="icon" >
                                 <RiChat1Line />
-                                <span>298</span>
+                                <span>450</span>
                             </div>
                            
                         </div>
@@ -89,13 +90,13 @@ export function Feed() {
 
                         <div className="engagement" >
                             <div className="icon" >
-                                <RiHeartLine />
-                                <span>54k</span>
+                                <SiOverleaf />
+                                <span>24k</span>
                             </div>
                            
                             <div className="icon" >
                                 <RiChat1Line />
-                                <span>298</span>
+                                <span>453</span>
                             </div>
                            
                         </div>
@@ -113,8 +114,8 @@ export function Feed() {
 
                         <div className="engagement" >
                             <div className="icon" >
-                                <RiHeartLine />
-                                <span>54k</span>
+                                <SiOverleaf />
+                                <span>30k</span>
                             </div>
                            
                             <div className="icon" >
@@ -137,13 +138,13 @@ export function Feed() {
 
                         <div className="engagement" >
                             <div className="icon" >
-                                <RiHeartLine />
-                                <span>54k</span>
+                                <SiOverleaf />
+                                <span>38k</span>
                             </div>
                            
                             <div className="icon" >
                                 <RiChat1Line />
-                                <span>298</span>
+                                <span>238</span>
                             </div>
                            
                         </div>
@@ -161,13 +162,13 @@ export function Feed() {
 
                         <div className="engagement" >
                             <div className="icon" >
-                                <RiHeartLine />
-                                <span>54k</span>
+                                <SiOverleaf />
+                                <span>81k</span>
                             </div>
                            
                             <div className="icon" >
                                 <RiChat1Line />
-                                <span>298</span>
+                                <span>638</span>
                             </div>
                            
                         </div>
@@ -185,13 +186,13 @@ export function Feed() {
 
                         <div className="engagement" >
                             <div className="icon" >
-                                <RiHeartLine />
-                                <span>54k</span>
+                                <SiOverleaf />
+                                <span>14k</span>
                             </div>
                            
                             <div className="icon" >
                                 <RiChat1Line />
-                                <span>298</span>
+                                <span>238</span>
                             </div>
                            
                         </div>
@@ -209,13 +210,13 @@ export function Feed() {
 
                         <div className="engagement" >
                             <div className="icon" >
-                                <RiHeartLine />
-                                <span>54k</span>
+                                <SiOverleaf />
+                                <span>64k</span>
                             </div>
                            
                             <div className="icon" >
                                 <RiChat1Line />
-                                <span>298</span>
+                                <span>598</span>
                             </div>
                            
                         </div>

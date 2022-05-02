@@ -1,7 +1,9 @@
-import { Content, HeaderContainer } from './styles'
+import { AmountInfoUser, Content, HeaderContainer } from './styles'
 import { RiAddBoxFill, RiSearchLine } from 'react-icons/ri'
 import { MdVerified } from 'react-icons/md'
 import Link from 'next/link'
+import { Follower } from '../Follower'
+import { AiFillStar } from 'react-icons/ai'
 
 export default function Header() {
 
@@ -33,11 +35,30 @@ export default function Header() {
                             <Link href="/profile" passHref><img className='user' src="/images/paulo2.jpg" alt="" /></Link>
                         </div>
 
-                        <img className='img-foll' src="/images/ultima.jpg" alt="" />
+                        <AmountInfoUser>
+                            <div>
+                                <b>30 M</b>
+                                <span>seguidores</span>
+                            </div>
+
+                            {/* <div>
+                                <b>568</b>
+                                <span>Publicações</span>
+                            </div> */}
+
+                            <div>
+                                <b>2.543</b>
+                                <span>Seguindo</span>
+                            </div>
+
+                            {/* <div>
+                                <AiFillStar />
+                            </div> */}
+                        </AmountInfoUser>
                     </div>
             </Content>
 
-            <img className='footer-profile' src="/images/footer-profile.jpg" alt="" />
+            <Follower />
         </HeaderContainer>
     )
 }
