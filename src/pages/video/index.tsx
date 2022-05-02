@@ -1,16 +1,13 @@
+import Link from "next/link";
+import { BsArrowLeftCircle, BsFacebook } from "react-icons/bs";
+import { FaTiktok } from "react-icons/fa";
+import { GrInstagram } from "react-icons/gr";
+import { MdVerified } from "react-icons/md";
+import ReactPlayer from "react-player";
+import { BottomMenu } from "../../components/BottomMenu";
+import { Container, Content, Numerics, Posts, SocialNetworks, User, UserContent } from "../../styles/styles";
 
-import { MdVerified } from 'react-icons/md'
-import { BottomMenu } from '../../components/BottomMenu'
-import { Container, Content, User, UserContent, Numerics, Posts, SocialNetworks } from '../../styles/styles'
-import { BsFacebook, BsArrowLeftCircle } from 'react-icons/bs'
-import { FaTiktok } from 'react-icons/fa'
-import { GrInstagram } from 'react-icons/gr'
-import Link from 'next/link'
-import ReactPlayer from 'react-player/youtube'
-
-
-export default function Profile() {
-
+export default function Video() {
     return (
         <Container>
             <Link href="/" passHref >
@@ -62,6 +59,7 @@ export default function Profile() {
                                     <BsFacebook />
                                 </Link>
 
+
                             </SocialNetworks>
                         </div>
 
@@ -69,24 +67,17 @@ export default function Profile() {
                 </User>
 
                 <Posts>
+                    <div className='video-area' >
+                        <ReactPlayer width="100%" height="100%" url="https://youtu.be/vtuL4DhdFko" />
+                    </div>
 
-                    <img src="/images/foto-4.jpg" alt="" />
+                    <div className='video-area' >
+                        <ReactPlayer width="100%" height="100%" url="https://youtu.be/pjjwzWvWnaw" />
+                    </div>
 
-                    <img src="/images/foto-7.jpg" alt="" />
-
-                    <img src="/images/foto-9.jpg" alt="" />
-
-                    {/* Fotos novas */}
-
-                    <img src="/images/foto-13.jpg" alt="" />
-
-                    <img src="/images/foto-14.jpg" alt="" />
-
-                    <img src="/images/foto-15.jpg" alt="" />
-
-                    <img src="/images/foto-16.jpg" alt="" />
-
-                    <img src="/images/foto-17.jpg" alt="" />
+                    <div className='video-area' >
+                        <ReactPlayer width="100%" height="100%" url="https://youtu.be/zjr8QTqvSGA" />
+                    </div>
                 </Posts>
 
                 <BottomMenu />

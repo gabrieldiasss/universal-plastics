@@ -1,18 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-
-    h1 {
-        margin-top: 1rem;
-    }
-
     width: 90%;
     max-width: 1200px;
     margin: 2rem auto;
 `
 
 export const Content = styled.div`
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0 4rem 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
@@ -30,8 +25,8 @@ export const Post = styled.div`
     border-radius: 5px; */
 
     img {
-        width: 110px;
-        height: 110px;
+        width: 120px;
+        height: 120px;
         border-radius: 10px;
     }
 
@@ -57,11 +52,11 @@ export const Post = styled.div`
             svg {
                 font-size: 1.4rem;
 
-                color: var(--blue-300);
+              /*   color: var(--blue-300); */
             }
 
             span {
-                font-size: 1.2rem;
+                font-size: 1rem;
             }
 
             .icon {

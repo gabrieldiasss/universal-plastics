@@ -155,17 +155,26 @@ export const Posts = styled.div`
     }
     
     img {
-        max-width: 100%;
+        width: 380px;
+        height: 400px;
         border-radius: 5px;
+        object-fit: cover;
 
        /*  @media(max-width: 500px) {
             width: 150px;
         } */
     }
+
+    .videa-area {
+        padding-top: 2rem;
+        height: 7rem;
+        max-width: 650px;
+        width: 90%;
+        margin: 0 auto;
+    }
 `
 
 export const SocialNetworks = styled.div`
-
     max-width: 300px;
     margin: 1rem auto;
 

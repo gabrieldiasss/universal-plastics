@@ -25,8 +25,9 @@ export function BottomMenu() {
 
             <FaMusic />
             
-            <MdLiveTv />
-           
+            <Link href="/video" passHref>
+                <MdLiveTv />
+            </Link>
         </BottomMenuSection>
     )
 }

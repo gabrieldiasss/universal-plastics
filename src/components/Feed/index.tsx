@@ -153,13 +153,10 @@ export function Feed() {
                 </Post>
 
                 <Post>
-                    <img src="/images/foto-10.jpg" alt="" />
+                    <img src="/images/foto-11.jpg" alt="" />
 
-                    <footer>
-                       {/*  <div>
-                            <img src="/images/foto-4.jpg" alt="" />
-                        </div> */}
-
+                   {/*  <footer>
+                       
                         <div className="engagement" >
                             <div className="icon" >
                                 <SiOverleaf />
@@ -173,16 +170,14 @@ export function Feed() {
                            
                         </div>
                         
-                    </footer>
+                    </footer> */}
                 </Post>
 
                 <Post>
-                    <img src="/images/foto-11.jpg" alt="" />
+                    <img src="/images/foto-1.jpg" alt="" />
 
-                    <footer>
-                      {/*   <div>
-                            <img src="/images/foto-4.jpg" alt="" />
-                        </div> */}
+                 {/*    <footer>
+                      
 
                         <div className="engagement" >
                             <div className="icon" >
@@ -197,16 +192,14 @@ export function Feed() {
                            
                         </div>
                         
-                    </footer>
+                    </footer> */}
                 </Post>
 
                 <Post>
                     <img src="/images/foto-12.jpg" alt="" />
 
-                    <footer>
-                       {/*  <div>
-                            <img src="/images/foto-4.jpg" alt="" />
-                        </div> */}
+                    {/* <footer>
+                       
 
                         <div className="engagement" >
                             <div className="icon" >
@@ -221,7 +214,7 @@ export function Feed() {
                            
                         </div>
                         
-                    </footer>
+                    </footer> */}
                 </Post>
 
             </Content>
