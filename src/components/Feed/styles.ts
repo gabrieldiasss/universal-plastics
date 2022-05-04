@@ -36,12 +36,6 @@ export const Post = styled.div`
         align-items: center;
         justify-content: space-between;
 
-        img {
-            width: 40px;
-            height: 40px;
-            border-radius: 100%;
-        }
-
         .engagement {
             display: flex;
             align-items: center;
