@@ -31,35 +31,35 @@ export const PhotosData = [
 
     {
         id: 5,
-        avatar_url: "/images/foto-7.jpg",
+        avatar_url: "/images/foto-5.jpg",
         likes: 10,
         comments: 113
     },
 
     {
         id: 6,
-        avatar_url: "/images/foto-8.jpg",
+        avatar_url: "/images/foto-6.jpg",
         likes: 56,
         comments: 132
     },
 
     {
         id: 7,
-        avatar_url: "/images/foto-9.jpg",
+        avatar_url: "/images/foto-7.jpg",
         likes: 34,
         comments: 153
     },
 
     {
         id: 8,
-        avatar_url: "/images/foto-10.jpg",
+        avatar_url: "/images/foto-8.jpg",
         likes: 37,
         comments: 153
     },
 
     {
         id: 9,
-        avatar_url: "/images/foto-11.jpg",
+        avatar_url: "/images/foto-9.jpg",
         likes: 57,
         comments: 254
     },

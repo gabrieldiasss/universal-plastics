@@ -70,10 +70,20 @@ export const ContentMessageUser = styled.div`
 
         strong {
             font-size: 1.2rem;
+
+            display: flex;
+            align-items: center;
+
+            svg {
+                color: var(--blue-300);
+                margin-left: 0.6rem;
+                font-size: 1.2rem;
+            }
         }
 
         span {
             color: var(--gray-700);
+            margin-top: 0.6rem;
         }
     }
 

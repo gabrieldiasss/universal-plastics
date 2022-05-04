@@ -7,6 +7,8 @@ import { PhotosData } from '../../data/photos'
 
 export function Feed() {
 
+    
+
     return (
         <Container>
             <h1>Feed</h1>
@@ -21,12 +23,12 @@ export function Feed() {
                                 <div className="engagement" >
                                     <div className="icon" >
                                         <SiOverleaf />
-                                        <span>{post.likes}k</span>
+                                        <span>{post.id}k</span>
                                     </div>
 
                                     <div className="icon" >
                                         <RiChat1Line />
-                                        <span>{post.comments}</span>
+                                        <span>{post.id}00</span>
                                     </div>
                                 </div>
                             </footer>

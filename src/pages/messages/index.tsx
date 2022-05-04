@@ -2,7 +2,7 @@ import Link from "next/link";
 import { AiOutlineArrowLeft, AiOutlineUnorderedList } from "react-icons/ai";
 import { BiEdit } from "react-icons/bi";
 import { Container, Content, MessageUser, ContentMessageUser, AllMessagesUser } from "../../styles/messages";
-import { MdEmail } from 'react-icons/md'
+import { MdEmail, MdVerified } from 'react-icons/md'
 
 import { MessagesData } from '../../data/messages'
 import { BottomMenu } from "../../components/BottomMenu";
@@ -35,7 +35,7 @@ export default function Messages() {
 
                             <ContentMessageUser>
                                 <div className="infos" >
-                                    <strong>{direct.name}</strong>
+                                    <strong>{direct.name} <MdVerified /></strong>
 
                                     <span>Sent</span>
                                 </div>

@@ -28,18 +28,20 @@ export const Post = styled.div`
         width: 120px;
         height: 120px;
         border-radius: 10px;
+        object-fit: cover;
     }
 
     footer {
         margin-top: 1rem;
         display: flex;
         align-items: center;
-        justify-content: space-between;
 
         .engagement {
             display: flex;
             align-items: center;
+            justify-content: space-around;
             gap: 16px;
+            flex: 1;
 
             margin-top: -10px;
 
