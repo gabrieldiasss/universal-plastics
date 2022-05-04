@@ -5,6 +5,7 @@ import { Container, Content, MessageUser, ContentMessageUser, AllMessagesUser } 
 import { MdEmail } from 'react-icons/md'
 
 import { MessagesData } from '../../data/messages'
+import { BottomMenu } from "../../components/BottomMenu";
 
 export default function Messages() {
 
@@ -49,6 +50,10 @@ export default function Messages() {
                 </AllMessagesUser>
 
             </Content>
+
+            <BottomMenu />
         </Container>
+
+        
     )
 }
