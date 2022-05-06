@@ -12,6 +12,10 @@ export const Content = styled.div`
     grid-template-columns: repeat(3, 1fr);
 
     text-align: center;
+
+    @media(max-width: 375px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
 `
 
 export const Post = styled.div`

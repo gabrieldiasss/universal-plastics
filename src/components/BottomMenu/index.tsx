@@ -23,9 +23,12 @@ export function BottomMenu() {
             <Link href="/profile" passHref >
                 <img src="/images/logo.png" alt="" />
             </Link>
+            
             <RiGalleryLine />
 
-            <FaMusic />
+            <Link href="/music" passHref >
+                <FaMusic />
+            </Link>
 
             <Link href="/video" passHref>
                 <MdLiveTv />
