@@ -4,10 +4,31 @@ import { BiEdit } from "react-icons/bi";
 import { Container, Content, MessageUser, ContentMessageUser, AllMessagesUser } from "../../styles/messages";
 import { MdEmail, MdVerified } from 'react-icons/md'
 
-import { MessagesData } from '../../data/messages'
 import { BottomMenu } from "../../components/BottomMenu";
+import { useEffect, useState } from "react";
+import { api } from "../../../services/api";
+
+interface UsersMessages {
+    id: number;
+    avatar_url: string;
+    name: string;
+    email: string;
+}
 
 export default function Messages() {
+
+    const [usersMessages, setUsersMessages] = useState<UsersMessages[]>([])
+
+    useEffect(()=> {
+        api.get("messages")
+        .then(response => {
+            setUsersMessages(response.data)
+        })
+        .catch(err => {
+            console.log(err)
+        })
+
+    }, [])
 
     return (
         <Container>
@@ -29,22 +50,25 @@ export default function Messages() {
                 </header>
 
                 <AllMessagesUser>
-                    {MessagesData.map(direct => (
-                        <MessageUser key={direct.id} >
-                            <img src={direct.avatar_url} alt="" />
+                    {usersMessages.map(direct => (
+                        <Link href={`/messages/${direct.id}`} key={direct.id} passHref >
+                            <MessageUser>
+                                <img src={direct.avatar_url} alt="" />
 
-                            <ContentMessageUser>
-                                <div className="infos" >
-                                    <strong>{direct.name} <MdVerified /></strong>
+                                <ContentMessageUser>
+                                    <div className="infos" >
+                                        <strong>{direct.name} <MdVerified /></strong>
 
-                                    <span>Sent</span>
-                                </div>
+                                        <span>Sent</span>
+                                    </div>
 
-                                <div className="icon" >
-                                    <MdEmail />
-                                </div>
-                            </ContentMessageUser>
-                        </MessageUser>
+                                    <div className="icon" >
+                                        <MdEmail />
+                                    </div>
+                                </ContentMessageUser>
+                            </MessageUser>
+                        </Link>
+
                     ))}
 
                 </AllMessagesUser>
@@ -54,6 +78,6 @@ export default function Messages() {
             <BottomMenu />
         </Container>
 
-        
+
     )
 }

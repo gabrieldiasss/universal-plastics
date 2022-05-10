@@ -28,9 +28,7 @@ export function Player() {
                     ): (
                         <AiOutlinePause onClick={handlePlay} />
                     )}
-                    
-
-                    
+                
                 </div>
             </ContentPlayer>
         </PlayerContainer>
