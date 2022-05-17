@@ -1,4 +1,5 @@
 import '../styles/global.ts'
+
 import type { AppProps } from 'next/app'
 import Sidebar from '../components/Sidebar'
 import { GlobalStyle } from '../styles/global'

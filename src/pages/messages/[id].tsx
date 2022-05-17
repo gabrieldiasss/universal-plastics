@@ -4,6 +4,7 @@ import { FormEvent, useEffect, useState } from "react";
 import { BsArrowLeftCircle } from "react-icons/bs";
 import { api } from "../../../services/api";
 import { Container, Form } from "../../styles/messageId";
+import { sendContactMail } from '../../../services/sendEmail'
 
 interface UserMessage {
     name: string;
@@ -17,12 +18,15 @@ export default function MessageId() {
 
     const [ user, setUser ] = useState<UserMessage>({} as UserMessage)
 
+    const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
 
-    function handleForm(e: FormEvent) {
+    async function handleForm(e: FormEvent) {
         e.preventDefault()
 
-        console.log({ email: user.email, message })
+        console.log(email, message)
+
+        await sendContactMail(email, message)
     }
 
     useEffect(() => {
@@ -45,7 +49,8 @@ export default function MessageId() {
             <Form onSubmit={handleForm} >
                 <h1>Enviar email para {user.name}</h1>
                 
-                <input value={user.email} placeholder="Email" type="email" />
+                <input value={email} placeholder="Informe seu email" type="email" onChange={(e) => setEmail(e.target.value)} />
+
                 <input value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Mensagem" type="text" />
 
                 <button type="submit">Enviar</button>
