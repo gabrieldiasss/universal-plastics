@@ -5,14 +5,12 @@ export default function Match() {
 
     return (
         <>
-
-
             <Container>
                 <h1>Match</h1>
 
                 <div className='matchImg' >
-                    <img src="https://github.com/gabrieldiasss.png" alt="" />
-                    <img src="https://github.com/gabrieldiasss.png" alt="" />
+                    <img src="/images/foto-5.jpg" alt="" />
+                    <img src="/images/foto-6.jpg" alt="" />
                 </div>
 
                 <h2>Você e carla se curtiram</h2>

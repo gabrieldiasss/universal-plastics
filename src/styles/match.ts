@@ -14,6 +14,7 @@ export const Container = styled.main`
             width: 7rem;
             height: 7rem;
             border-radius: 50%;
+            object-fit: cover;
         }
     }
 

@@ -4,6 +4,9 @@ export const Container = styled.main`
 
     flex: 1;
 
+    background-color: #010217;
+    height: 100vh;
+
     header {
         img {
             width: 100%;

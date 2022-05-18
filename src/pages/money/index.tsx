@@ -23,31 +23,31 @@ export default function Money() {
 
                 <ListPayments>
                     <UniquePayment>
-                        <img src="https://github.com/gabrieldiasss.png" alt="" />
+                        <img src="/images/foto-8.jpg" alt="" />
 
                         <div className='dataPayments'>
                             <div className='infos'>
-                                <b>Alvaro</b>
+                                <b>Paulo</b>
                                 <span>play</span>
                             </div>
 
                             <div className='payment' >
-                                - $ 4,90
+                                + $ 1 000 000 000
                             </div>
                         </div>
                     </UniquePayment>
 
                     <UniquePayment>
-                        <img src="https://github.com/gabrieldiasss.png" alt="" />
+                        <img src="/images/foto-3.jpg" alt="" />
 
                         <div className='dataPayments'>
                             <div className='infos'>
-                                <b>Alvaro</b>
+                                <b>Paulo</b>
                                 <span>play</span>
                             </div>
 
                             <div className='payment' >
-                                - $ 4,90
+                                + $ 1 000 000 000
                             </div>
                         </div>
                     </UniquePayment>

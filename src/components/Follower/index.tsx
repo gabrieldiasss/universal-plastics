@@ -1,6 +1,7 @@
 import { ButtonFollow, Buttons, Container, InfoUsersFollowersProfile } from "./styles";
 import { MdOutlinePersonAdd } from 'react-icons/md'
 import { useState } from "react";
+import Link from "next/link";
 
 export function Follower() {
 
@@ -27,7 +28,11 @@ export function Follower() {
                 >
                     { follow ? 'Deixar de seguir' : 'seguir' }
                 </ButtonFollow>
-                <button className="message" type="button">Mensagem</button>
+
+                <Link href="/messages" passHref>
+                    <button className="message" type="button">Mensagem</button>
+                </Link>
+                
                 <button className="person" type="button"><MdOutlinePersonAdd /></button>
             </Buttons>
 
