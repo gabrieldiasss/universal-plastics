@@ -1,45 +1,93 @@
-import { AiOutlineHeart } from "react-icons/ai";
-import { HiOutlineCloudUpload } from "react-icons/hi";
-import { AllMusics, Container, ContentMusic, UniqueMusic } from "../../styles/music";
 
-import { FiMoreHorizontal } from 'react-icons/fi'
+import { Container, Playlist, NewMusic } from "../../styles/music";
+
 import { BottomMenu } from "../../components/BottomMenu";
-import { Player } from "../../components/Player";
 
 export default function Music() {
     return (
         <Container>
             <header>
-                <img src="/images/top-50.jpg" alt="" />
+                <h1>Music Explorer</h1>
 
-                <div className="icons" >
-                    <AiOutlineHeart />
-
-                    <HiOutlineCloudUpload />
-
-                    <FiMoreHorizontal />
-                </div>
+                <img src="/images/envolver.jpg" alt="" />
             </header>
 
-            <AllMusics>
-                <UniqueMusic>
-                    <img src="/images/envolver.jpg" alt="" />
+            <Playlist>
+                <header >
+                    <h2>Play List</h2>
+                    <span>More</span>
+                </header>
 
-                    <ContentMusic>
-                        <div className="infos" >
-                            <strong>Envolver</strong>
 
-                            <span>Anitta</span>
-                        </div>
+                <section>
+                    <div>
+                        <img src="/images/envolver.jpg" alt="" />
+                    </div>
 
-                        <div className="icon">
-                            <FiMoreHorizontal />
-                        </div>
-                    </ContentMusic>
-                </UniqueMusic>
-            </AllMusics>
+                    <div>
+                        <img src="/images/envolver.jpg" alt="" />
+                    </div>
 
-            <Player />
+                    <div>
+                        <img src="/images/envolver.jpg" alt="" />
+                    </div>
+
+                    <div>
+                        <img src="/images/envolver.jpg" alt="" />
+                    </div>
+
+                    
+                    <div>
+                        <img src="/images/envolver.jpg" alt="" />
+                    </div>
+
+                    
+                    <div>
+                        <img src="/images/envolver.jpg" alt="" />
+                    </div>
+
+
+                
+                </section>
+            </Playlist>
+
+            <Playlist>
+                <header >
+                    <h2>New Music</h2>
+                    <span>More</span>
+                </header>
+
+                <section>
+                    <div>
+                        <img src="/images/envolver.jpg" alt="" />
+                    </div>
+
+                    <div>
+                        <img src="/images/envolver.jpg" alt="" />
+                    </div>
+
+                    <div>
+                        <img src="/images/envolver.jpg" alt="" />
+                    </div>
+
+                    <div>
+                        <img src="/images/envolver.jpg" alt="" />
+                    </div>
+
+                    
+                    <div>
+                        <img src="/images/envolver.jpg" alt="" />
+                    </div>
+
+                    
+                    <div>
+                        <img src="/images/envolver.jpg" alt="" />
+                    </div>
+
+
+                
+                </section>
+            </Playlist>
 
             <BottomMenu />
         </Container >

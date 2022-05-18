@@ -4,83 +4,69 @@ export const Container = styled.main`
 
     flex: 1;
 
-    background-color: #010217;
     height: 100vh;
 
+    margin: 1rem;
+    
     header {
+
+        h1 {
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+        }
+
         img {
             width: 100%;
-            height: 350px;
+            height: 300px;
+            border-radius: 50px;
             object-fit: cover;
-        }
-
-        .icons {
-
             display: flex;
-            align-items: center;
-            width: 95%;
-            margin: 1rem auto 0 auto;
-
-            gap: 1rem;
-
-            svg {
-                font-size: 2rem;
-                color: #fff;
-            }
+            justify-content: center;
         }
     }
 
 `
 
-export const AllMusics = styled.section`
-    width: 90%;
-    margin: 2rem auto 0 auto;
-`
+export const Playlist = styled.div`
 
-export const UniqueMusic = styled.div`
+    margin-top: 3rem;
 
-    display: flex;
-    align-items: center;
-
-    img {
-        width: 4rem;
-        height: 4rem;
-    }
-
-`
-
-export const ContentMusic = styled.div`
-
-    margin-left: 1rem;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    flex: 1;
-
-    .infos {
+    header {
         display: flex;
-        flex-direction: column;
-
-        strong {
-            font-size: 1.6rem;
-            font-weight: 500;
-        }
+        align-items: center;
+        justify-content: space-between;
 
         span {
-            font-size: 1.4rem;
-            margin-top: 0.6rem;
-            color: var(--gray-700);
+            margin-right: 1rem;
         }
     }
 
-    .icon {
-        svg {
-            font-size: 2rem;
-            color: var(--gray-700);
+    section {
+
+        margin-top: 1rem;
+
+        max-width: 375px;
+        display: flex;
+        overflow: scroll;
+
+        gap: 1rem;
+
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 5px;
+
+            
         }
+
+        & + img {
+                margin-right: 1rem;
+            }
+
     }
 
-    
+`
+
+export const NewMusic = styled.div`
+
 `

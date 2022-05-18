@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { BottomMenu } from '../../components/BottomMenu'
 import { Container, Buttons } from '../../styles/match'
 
@@ -13,12 +14,15 @@ export default function Match() {
                     <img src="/images/foto-6.jpg" alt="" />
                 </div>
 
-                <h2>Você e carla se curtiram</h2>
+                <h2>Você e paulo se curtiram</h2>
 
                 <p>Carla também gosta de café, carla também gosta de cachorros carla não gosta de festas</p>
 
                 <Buttons>
-                    <button className="select" type="button">Enviar mensagem</button>
+                    <Link href="/messages" passHref>
+                        <button className="select" type="button">Enviar mensagem</button>
+                    </Link>
+
                     <button type="button">continuar deslizando</button>
                 </Buttons>
             </Container>

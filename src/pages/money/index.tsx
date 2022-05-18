@@ -12,7 +12,7 @@ export default function Money() {
                     <span>TU SALDO</span>
 
                     <div className='balance' >
-                        $1000 UPC
+                         $ 2 000 000 000 UPC
                     </div>
 
                     <div>
