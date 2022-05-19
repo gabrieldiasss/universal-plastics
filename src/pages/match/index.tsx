@@ -14,7 +14,7 @@ export default function Match() {
                     <img src="/images/foto-6.jpg" alt="" />
                 </div>
 
-                <h2>Você e paulo se curtiram</h2>
+                <h2>Você e Paulo se curtiram</h2>
 
                 <p>Carla também gosta de café, carla também gosta de cachorros carla não gosta de festas</p>
 

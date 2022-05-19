@@ -18,36 +18,30 @@ export default function Music() {
                     <span>More</span>
                 </header>
 
-
                 <section>
                     <div>
-                        <img src="/images/envolver.jpg" alt="" />
+                        <img src="/images/anitta-tocame.jpg" alt="" />
                     </div>
 
                     <div>
-                        <img src="/images/envolver.jpg" alt="" />
+                        <img src="/images/justin-capa2.jpg" alt="" />
                     </div>
 
                     <div>
-                        <img src="/images/envolver.jpg" alt="" />
+                        <img src="/images/travis.jpg" alt="" />
                     </div>
 
                     <div>
-                        <img src="/images/envolver.jpg" alt="" />
+                        <img src="/images/eminem-capa.jpg" alt="" />
                     </div>
 
-                    
                     <div>
-                        <img src="/images/envolver.jpg" alt="" />
+                        <img src="/images/anitta-tocame.jpg" alt="" />
                     </div>
 
-                    
                     <div>
-                        <img src="/images/envolver.jpg" alt="" />
+                        <img src="/images/justin-capa2.jpg" alt="" />
                     </div>
-
-
-                
                 </section>
             </Playlist>
 
@@ -59,29 +53,29 @@ export default function Music() {
 
                 <section>
                     <div>
-                        <img src="/images/envolver.jpg" alt="" />
+                        <img src="/images/justin-capa2.jpg" alt="" />
                     </div>
 
                     <div>
-                        <img src="/images/envolver.jpg" alt="" />
+                        <img src="/images/anitta-tocame.jpg" alt="" />
                     </div>
 
                     <div>
-                        <img src="/images/envolver.jpg" alt="" />
+                        <img src="/images/eminem-capa.jpg" alt="" />
                     </div>
 
                     <div>
-                        <img src="/images/envolver.jpg" alt="" />
-                    </div>
-
-                    
-                    <div>
-                        <img src="/images/envolver.jpg" alt="" />
+                        <img src="/images/don-toliver.jpg" alt="" />
                     </div>
 
                     
                     <div>
-                        <img src="/images/envolver.jpg" alt="" />
+                        <img src="/images/travis.jpg" alt="" />
+                    </div>
+
+                    
+                    <div>
+                        <img src="/images/justin-capa2.jpg" alt="" />
                     </div>
 
 

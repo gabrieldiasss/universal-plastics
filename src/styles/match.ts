@@ -19,7 +19,7 @@ export const Container = styled.main`
     }
 
     h1, h2, p {
-        color: #268D8C;
+        color: var(--blue-500);
     }
 
     h1 {
@@ -45,7 +45,7 @@ export const Buttons = styled.div`
 
     .select {
         height: 3rem;
-        background-color: #268D8C;
+        background-color: var(--blue-500);
     }
 
     button {
