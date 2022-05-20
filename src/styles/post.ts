@@ -43,6 +43,11 @@ export const PostContainer = styled.div`
                 font-size: 2rem;
             }
 
+            img {
+                width: 60px;
+                height: 60px;
+            }
+
             span {
                 font-size: 1.4rem;
             }

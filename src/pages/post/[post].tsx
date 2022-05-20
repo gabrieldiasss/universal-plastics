@@ -18,7 +18,7 @@ export default function Post() {
             <Link href="/" passHref >
                 <BsArrowLeftCircle className='arrow' />
             </Link>
-            
+
             <Content>
                 <PostContainer>
                     <img src={`/images/foto-${post}.jpg`} alt="" />
@@ -29,6 +29,11 @@ export default function Post() {
                                 <SiOverleaf />
                                 <span>{post}K</span>
                             </div>
+
+                            <Link href="/" passHref>
+                                <img src="/images/logo.png" alt="" />
+                            </Link>
+
 
                             <div className="icon" >
                                 <RiChat1Line />
