@@ -9,7 +9,7 @@ export default function Music() {
             <header>
                 <h1>Music Explorer</h1>
 
-                <img src="/images/envolver.jpg" alt="" />
+                <img src="/images/anitta-dualipe.jpeg" alt="" />
             </header>
 
             <Playlist>

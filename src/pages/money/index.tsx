@@ -12,8 +12,10 @@ export default function Money() {
                     <span>TU SALDO</span>
 
                     <div className='balance' >
-                         $ 2 000 000 000 UPC
+                         $ 2 000 000 000 
                     </div>
+
+                    <div className='natur' >NATUR</div>
 
                     <div>
                         <button><IoMdAdd /> Anadir saldo</button>
@@ -38,11 +40,11 @@ export default function Money() {
                     </UniquePayment>
 
                     <UniquePayment>
-                        <img src="/images/foto-3.jpg" alt="" />
+                        <img src="/images/alvaro.jpg" alt="" />
 
                         <div className='dataPayments'>
                             <div className='infos'>
-                                <b>Paulo</b>
+                                <b>Alvaro</b>
                                 <span>play</span>
                             </div>
 

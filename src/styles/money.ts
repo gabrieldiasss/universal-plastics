@@ -17,10 +17,15 @@ export const Container = styled.main`
         span {
             font-weight: 600;
             font-size: 1.6rem;
+            font-family: Roboto;
         }
 
         .balance {
             font-size: 3rem;
+        }
+
+        .natur {
+            font-size: 2rem;
         }
 
         div {

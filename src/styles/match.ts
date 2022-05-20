@@ -4,7 +4,7 @@ export const Container = styled.main`
 
     text-align: center;
 
-    margin: 3rem 2rem;
+    margin: 7rem 2rem;
 
     .matchImg {
 
@@ -19,7 +19,7 @@ export const Container = styled.main`
     }
 
     h1, h2, p {
-        color: var(--blue-500);
+        color: var(--blue-300);
     }
 
     h1 {
@@ -45,7 +45,7 @@ export const Buttons = styled.div`
 
     .select {
         height: 3rem;
-        background-color: var(--blue-500);
+        background-color: var(--blue-300);
     }
 
     button {
