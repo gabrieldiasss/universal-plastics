@@ -25,7 +25,6 @@ export default function Match() {
 
                     <button type="button">continuar deslizando</button>
 
-                    <img src="/images/200.gif" alt="" />
                 </Buttons>
             </Container>
 

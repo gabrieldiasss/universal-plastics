@@ -25,7 +25,7 @@ export const BottomMenuSection = styled.div`
     }
 
     img {
-        width: 40px;
+        width: 60px;
         margin-top: -20px;
     }
 `
