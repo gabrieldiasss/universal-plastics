@@ -31,7 +31,7 @@ export default function Post() {
                             </div>
 
                             <Link href="/" passHref>
-                                <img src="/images/logo.png" alt="" />
+                                <img src="/images/contagem.gif" alt="" />
                             </Link>
 
 
@@ -41,7 +41,11 @@ export default function Post() {
                             </div>
                         </div>
                     </footer>
+
+                    
                 </PostContainer>
+
+                
             </Content>
         </Container>
     )

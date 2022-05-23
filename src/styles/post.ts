@@ -22,6 +22,8 @@ export const Content = styled.section`
 
 export const PostContainer = styled.div`
 
+    margin-top: 4rem;
+
     img {
         width: 380px;
         height: 400px;
@@ -44,8 +46,8 @@ export const PostContainer = styled.div`
             }
 
             img {
-                width: 60px;
-                height: 60px;
+                width: 110px;
+                height: 110px;
             }
 
             span {

@@ -23,7 +23,7 @@ export function BottomMenu() {
             </Link>
 
             <Link href="/profile" passHref >
-                <img src="/images/logo.png" alt="" />
+                <img src="/images/hud_loading.gif" alt="" />
             </Link>
 
             <Link href="/money" passHref>

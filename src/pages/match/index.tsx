@@ -24,8 +24,12 @@ export default function Match() {
                     </Link>
 
                     <button type="button">continuar deslizando</button>
+
+                    <img src="/images/200.gif" alt="" />
                 </Buttons>
             </Container>
+
+            
 
             <BottomMenu />
         </>

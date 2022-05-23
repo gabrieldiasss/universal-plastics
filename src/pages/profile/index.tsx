@@ -70,6 +70,18 @@ export default function Profile() {
 
                 <Posts>
 
+                    
+
+                    <img src="/images/natureza-1.gif" alt="" />
+
+                    <img src="/images/cidade.gif" alt="" />
+
+                    <img src="/images/sol.gif" alt="" />
+
+                    <img src="/images/tecnologia-suplica.gif" alt="" />
+
+                    <img src="/images/196365-recentemente-anitta-emplacou-o-dueto-s-624x0-1 (1).gif" alt="" />
+
                     <img src="/images/foto-4.jpg" alt="" />
 
                     <img src="/images/foto-7.jpg" alt="" />

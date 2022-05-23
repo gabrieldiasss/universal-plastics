@@ -52,8 +52,14 @@ export default function Money() {
                                 + $ 1 000 000 000
                             </div>
                         </div>
+
+                        
                     </UniquePayment>
+
+                    
                 </ListPayments>
+
+                <img src="/images/forex.gif" alt="" />
             </Container>
 
             <BottomMenu />
