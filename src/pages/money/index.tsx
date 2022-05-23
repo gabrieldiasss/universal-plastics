@@ -56,10 +56,11 @@ export default function Money() {
                         
                     </UniquePayment>
 
+                    <img src="/images/forex.gif" alt="" />
                     
                 </ListPayments>
 
-                <img src="/images/forex.gif" alt="" />
+                
             </Container>
 
             <BottomMenu />

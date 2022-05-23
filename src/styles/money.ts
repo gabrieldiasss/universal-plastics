@@ -7,10 +7,7 @@ export const Container = styled.main`
 
     height: 100vh;
 
-    img {
-        width: 300px;
-        margin-left: 20px;
-    }
+    
 
     header {
         text-align: center;
@@ -64,6 +61,11 @@ export const ListPayments = styled.section`
     width: 90%;
     margin: 2rem auto;
 
+    img {
+        width: 100%;
+        
+        margin-top: 2rem;
+    }
 
 `
 

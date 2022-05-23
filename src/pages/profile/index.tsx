@@ -72,7 +72,7 @@ export default function Profile() {
 
                     
 
-                    <img src="/images/natureza-1.gif" alt="" />
+                   {/*  <img src="/images/natureza-1.gif" alt="" /> */}
 
                     <img src="/images/cidade.gif" alt="" />
 
@@ -99,6 +99,10 @@ export default function Profile() {
                     <img src="/images/foto-16.jpg" alt="" />
 
                     <img src="/images/foto-17.jpg" alt="" />
+
+                    <img src="/images/tremcoca1.jpg" alt="" />
+
+                    <img src="/images/tartarugas.jpeg" alt="" />
                 </Posts>
 
                 <BottomMenu />
