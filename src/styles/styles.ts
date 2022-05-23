@@ -39,7 +39,7 @@ export const User = styled.div`
         }
     }
 
-    padding-bottom: 1rem;
+    padding-bottom: 4rem;
 
     border-bottom: 1px solid #383737;
 
