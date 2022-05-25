@@ -12,7 +12,7 @@ export const Container = styled.div`
     }
 
     .icon-analytics {
-        width: 50px;
+        width: 100px;
         right: 20px;
         top: 20px;
         position: absolute;

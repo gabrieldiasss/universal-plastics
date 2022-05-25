@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
 
-flex: 1;
+    flex: 1;
 
     header {
         display: flex;
@@ -21,7 +21,7 @@ flex: 1;
 
 export const Main = styled.main`
 
-    margin-top: 2rem;
+    margin-top: 4rem;
     
     .ages{
         width: 90%;
@@ -30,7 +30,7 @@ export const Main = styled.main`
 
     .genders {
 
-        margin-top: 2rem;
+        margin-top: 5rem;
 
         text-align: center;
 
@@ -83,7 +83,7 @@ export const AgePercentage = styled.div`
         filter: brightness(0.70);
     }
 
-    .progress {
+    .progress, .progress-1, .progress-2, .progress-3, .progress-4, .progress-5, .progress-6{
         background-color: var(--blue-300);
         width: 200px;
         height: 25px;
@@ -98,5 +98,32 @@ export const AgePercentage = styled.div`
         background-color: rgba(0, 0, 0, 0.98);
         position: absolute;
         left: 15%;
+    }
+
+    .progress-2::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.98);
+        position: absolute;
+        left: 80%;
+    }
+
+    .progress-3::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.98);
+        position: absolute;
+        left: 70%;
+    }
+
+    .progress-4::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.98);
+        position: absolute;
+        left: 60%;
     }
 `

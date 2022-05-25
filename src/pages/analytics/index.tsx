@@ -28,31 +28,31 @@ export default function Analytics() {
                     <AgePercentage >
                         <span>25-34</span>
 
-                        <div className='progress'></div>
+                        <div className='progress-2'></div>
 
-                        <span>34%</span>
+                        <span>80%</span>
                     </AgePercentage>
 
                     <AgePercentage >
                         <span>35-44</span>
 
-                        <div className='progress'></div>
+                        <div className='progress-3'></div>
 
-                        <span>28%</span>
+                        <span>70%</span>
                     </AgePercentage>
 
                     <AgePercentage >
                         <span>45-54</span>
 
-                        <div className='progress'></div>
+                        <div className='progress-4'></div>
 
-                        <span>20%</span>
+                        <span>60%</span>
                     </AgePercentage>
 
                     <AgePercentage >
                         <span>55-64</span>
 
-                        <div className='progress'></div>
+                        <div className='progress-5'></div>
 
                         <span>4%</span>
                     </AgePercentage>
@@ -60,14 +60,12 @@ export default function Analytics() {
                     <AgePercentage >
                         <span>65-75</span>
 
-                        <div className='progress'></div>
+                        <div className='progress-6'></div>
 
                         <span>3%</span>
                     </AgePercentage>
 
                 </section>
-
-
 
                 <section className='genders' >
 
@@ -90,7 +88,7 @@ export default function Analytics() {
 
                 </section>
 
-                <section className='active-times' >
+               {/*  <section className='active-times' >
 
                     <strong>Active Times</strong>
 
@@ -104,7 +102,7 @@ export default function Analytics() {
 
                     <img src="/images/analytics.gif" alt="" />
 
-                </section>
+                </section> */}
             </Main>
         </Container>
     )

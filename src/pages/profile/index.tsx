@@ -25,7 +25,10 @@ export default function Profile() {
             <Content>
                 <User>
                     <UserContent>
-                        <img src="/images/foto-1.jpg" alt="" />
+
+                        <Link href="/live" passHref>
+                            <img src="/images/foto-1.jpg" alt="" />
+                        </Link>
 
 
                         <div className='infos-user' >
