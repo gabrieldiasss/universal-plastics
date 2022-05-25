@@ -10,6 +10,13 @@ export const Container = styled.div`
         left: 20px;
         position: absolute;
     }
+
+    .icon-analytics {
+        width: 50px;
+        right: 20px;
+        top: 20px;
+        position: absolute;
+    }
 `
 
 export const Content = styled.div`

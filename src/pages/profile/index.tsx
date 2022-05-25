@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 
 import { MdVerified } from 'react-icons/md'
 import { BottomMenu } from '../../components/BottomMenu'
@@ -6,7 +7,6 @@ import { BsFacebook, BsArrowLeftCircle } from 'react-icons/bs'
 import { FaTiktok } from 'react-icons/fa'
 import { GrInstagram } from 'react-icons/gr'
 import Link from 'next/link'
-import ReactPlayer from 'react-player/youtube'
 
 
 export default function Profile() {
@@ -17,10 +17,16 @@ export default function Profile() {
                 <BsArrowLeftCircle className='arrow' />
             </Link>
 
+            <Link href="/analytics" passHref>
+                <img className='icon-analytics' src="/images/icone-analytics.gif" alt="" />
+            </Link>
+
+
             <Content>
                 <User>
                     <UserContent>
                         <img src="/images/foto-1.jpg" alt="" />
+
 
                         <div className='infos-user' >
 
@@ -70,9 +76,9 @@ export default function Profile() {
 
                 <Posts>
 
-                    
 
-                   {/*  <img src="/images/natureza-1.gif" alt="" /> */}
+
+                    {/*  <img src="/images/natureza-1.gif" alt="" /> */}
 
                     <img src="/images/cidade.gif" alt="" />
 
