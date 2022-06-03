@@ -30,7 +30,7 @@ export default function Analytics() {
 
                         <div className='progress-2'></div>
 
-                        <span>80%</span>
+                        <span>75%</span>
                     </AgePercentage>
 
                     <AgePercentage >
@@ -54,7 +54,7 @@ export default function Analytics() {
 
                         <div className='progress-5'></div>
 
-                        <span>4%</span>
+                        <span>89%</span>
                     </AgePercentage>
 
                     <AgePercentage >
@@ -62,7 +62,7 @@ export default function Analytics() {
 
                         <div className='progress-6'></div>
 
-                        <span>3%</span>
+                        <span>90%</span>
                     </AgePercentage>
 
                 </section>

@@ -55,6 +55,10 @@ export const Post = styled.div`
               /*   color: var(--blue-300); */
             }
 
+            .like {
+                color: var(--blue-300);
+            }
+
             span {
                 font-size: 1rem;
             }

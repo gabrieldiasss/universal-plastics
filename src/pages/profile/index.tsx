@@ -21,7 +21,6 @@ export default function Profile() {
                 <img className='icon-analytics' src="/images/icone-analytics.gif" alt="" />
             </Link>
 
-
             <Content>
                 <User>
                     <UserContent>
